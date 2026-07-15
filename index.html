@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pac-Man — 3 Levels</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>PAC-MAN</h1>
+    <div id="hud">
+      <span>Score: <span id="score">0</span></span>
+      <span>Lives: <span id="lives">3</span></span>
+      <span>Level: <span id="level">1</span> / 3</span>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="overlay">
+      <div id="overlay-content">
+        <h2 id="overlay-title">PAC-MAN</h2>
+        <p id="overlay-message">Use arrow keys (or WASD) to move. Eat all the dots to clear each level.</p>
+        <button id="startBtn">Start Game</button>
+      </div>
+    </div>
+    <p id="hint">Arrow keys / WASD to move · P to pause</p>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
